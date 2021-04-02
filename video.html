@@ -15,15 +15,15 @@
 </style>
 <script type="text/javascript">
 <!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
 function FP_swapImg() {//v1.0
  var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
  n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
  elm.$src=elm.src; elm.src=args[n+1]; } }
-}
-
-function FP_preloadImgs() {//v1.0
- var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
- for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
 }
 
 function FP_getObjectByID(id,o) {//v1.0
@@ -39,17 +39,16 @@ function FP_getObjectByID(id,o) {//v1.0
 </script>
 </head>
 
-<body bgcolor="#FFFFFF" onload="FP_preloadImgs(/*url*/'button81.jpg',/*url*/'button82.jpg',/*url*/'button84.jpg',/*url*/'button85.jpg',/*url*/'button87.jpg',/*url*/'button88.jpg',/*url*/'button8A.jpg',/*url*/'button8B.jpg',/*url*/'button8D.jpg',/*url*/'button8E.jpg',/*url*/'button90.jpg',/*url*/'button91.jpg')">
+<body bgcolor="#FFFFFF" onload="FP_preloadImgs(/*url*/'buttonB1.jpg',/*url*/'buttonB2.jpg',/*url*/'buttonB4.jpg',/*url*/'buttonB5.jpg',/*url*/'buttonB7.jpg',/*url*/'buttonB8.jpg',/*url*/'buttonBA1.jpg',/*url*/'buttonBB1.jpg',/*url*/'buttonBD1.jpg',/*url*/'buttonBE1.jpg',/*url*/'buttonC10.jpg',/*url*/'buttonC11.jpg',/*url*/'buttonBB.jpg',/*url*/'buttonBA.jpg',/*url*/'buttonBD.jpg',/*url*/'buttonBE.jpg',/*url*/'buttonC0.jpg',/*url*/'buttonC1.jpg')">
 
 <p class="auto-style2">
-<a href="Nachalo/hachalo.html">
-</a>&nbsp; <a href="https://dimitarkrustev.github.io/computer/">
-<img id="img2" alt="Централен процесор" height="27" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'button82.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'button80.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'button81.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'button81.jpg')" src="button80.jpg" style="border: 0" width="135" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 3" fp-title="Централен процесор" --></a>&nbsp; <a href="Дънна%20платка.html">
-<img id="img3" alt="Дънна платка" height="27" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'button85.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'button83.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'button84.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'button84.jpg')" src="button83.jpg" style="border: 0" width="135" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 3" fp-title="Дънна платка" --></a>&nbsp; <a href="вх-изходни.html">
-<img id="img4" alt="Вх-Изх устройства" height="27" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'button88.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'button86.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'button87.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'button87.jpg')" src="button86.jpg" style="border: 0" width="135" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 3" fp-title="Вх-Изх устройства" --></a>&nbsp; <a href="рам.html">
-<img id="img5" alt="Операционна рам" height="27" onmousedown="FP_swapImg(1,0,/*id*/'img5',/*url*/'button8B.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img5',/*url*/'button89.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img5',/*url*/'button8A.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img5',/*url*/'button8A.jpg')" src="button89.jpg" style="border: 0" width="135" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 3" fp-title="Операционна рам" --></a>&nbsp; <a href="video.html">
-<img id="img6" alt="Видео" height="27" onmousedown="FP_swapImg(1,0,/*id*/'img6',/*url*/'button8E.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img6',/*url*/'button8C.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img6',/*url*/'button8D.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img6',/*url*/'button8D.jpg')" src="button8C.jpg" style="border: 0" width="135" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 3" fp-title="Видео" --></a>&nbsp; <a href="контакти.html">
-<img id="img7" alt="Контакти" height="27" onmousedown="FP_swapImg(1,0,/*id*/'img7',/*url*/'button91.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img7',/*url*/'button8F.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img7',/*url*/'button90.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img7',/*url*/'button90.jpg')" src="button8F.jpg" style="border: 0" width="135" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 3" fp-title="Контакти" --></a></a></a></a></a></a></a></p>
+<a href="https://dimitarkrustev.github.io/computer/">
+<img id="img2" alt="Централен процесор" height="27" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'buttonB2.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'buttonB0.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'buttonB1.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'buttonB1.jpg')" src="buttonB0.jpg" style="border: 0" width="135" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 3" fp-title="Централен процесор" --></a>&nbsp; <a href="Дънна%20платка.html">
+	<img id="img3" alt="Дънна платка" height="27" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'buttonB5.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'buttonB3.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'buttonB4.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'buttonB4.jpg')" src="buttonB3.jpg" style="border: 0" width="135" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 3" fp-title="Дънна платка" --></a>&nbsp; <a href="вх-изходни.html">
+	<img id="img4" alt="Вх-Изх устройства" height="27" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'buttonB8.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'buttonB6.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'buttonB7.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'buttonB7.jpg')" src="buttonB6.jpg" style="border: 0" width="135" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 3" fp-title="Вх-Изх устройства" --></a>&nbsp; <a href="рам.html">
+	<img id="img5" alt="Операционна рам" height="27" onmousedown="FP_swapImg(1,0,/*id*/'img5',/*url*/'buttonBB1.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img5',/*url*/'buttonB10.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img5',/*url*/'buttonBA1.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img5',/*url*/'buttonBA1.jpg')" src="buttonB10.jpg" style="border: 0" width="135" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 3" fp-title="Операционна рам" --></a>&nbsp; <a href="video.html">
+	<img id="img6" alt="Видео" height="27" onmousedown="FP_swapImg(1,0,/*id*/'img6',/*url*/'buttonBE1.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img6',/*url*/'buttonBC1.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img6',/*url*/'buttonBD1.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img6',/*url*/'buttonBD1.jpg')" src="buttonBC1.jpg" style="border: 0" width="135" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 3" fp-title="Видео" --></a>&nbsp; <a href="контакти.html">
+	<img id="img7" alt="Контакти" height="27" onmousedown="FP_swapImg(1,0,/*id*/'img7',/*url*/'buttonC11.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img7',/*url*/'buttonBF1.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img7',/*url*/'buttonC10.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img7',/*url*/'buttonC10.jpg')" src="buttonBF1.jpg" style="border: 0" width="135" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 3" fp-title="Контакти" --></a></a></a></a></a></a></a></p>
 <p class="auto-style2">ВИДЕО</p>
 <p class="auto-style1">На тази страница може да видите няколко видео-клипа от 
 известния сайт за видеообмен youtube.com. Те показват нагледно как функционират 
